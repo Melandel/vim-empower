@@ -1,5 +1,4 @@
 set background=dark
-hi! clear
 syntax reset
 
 "Nice blue #729fcf
