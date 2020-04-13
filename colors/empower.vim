@@ -94,3 +94,14 @@ hi! csharpXmlDocCommentDelimiter guifg=#575b61 gui=NONE font=consolas:h11:i
 hi! csharpXmlDocCommentText guifg=#575b61 gui=NONE font=consolas:h11:i
 hi! csComment guifg=#575b61 gui=NONE font=consolas:h11:i
 "----------------------------------------------------}}}
+" HTML hhighlight groups
+hi! htmlTitle guibg=bg guifg=#fb5012
+hi! htmlEndTag guibg=bg guifg=#729fcf
+hi! htmlTag guibg=bg guifg=#729fcf
+hi! htmlTagN guibg=bg guifg=#99c24d
+hi! htmlTagName guibg=bg guifg=#99c24d
+hi! htmlSpecialTagName guibg=bg guifg=#99c24d
+hi! javaScriptIdentifier guibg=bg guifg=#729fcf
+hi! javaScriptFunction guibg=bg guifg=#729fcf
+hi! javaScript guibg=bg guifg=#729fcf
+hi! javaScriptNumber guibg=bg guifg=#20a39e
