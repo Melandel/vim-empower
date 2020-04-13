@@ -62,6 +62,8 @@ hi! DiffAdd guibg=#6f904f guifg=fg gui=NONE
 hi! DiffChange guibg=#af8a0c guifg=fg gui=NONE
 hi! DiffDelete guibg=#c7400e guifg=fg gui=NONE
 hi! DiffText guibg=#af390c guifg=fg gui=NONE
+hi! PopupTime guibg=#3cb98f guifg=#fabd2f gui=NONE
+
 "----------------------------------------------------}}}
 " CSharp highlight groups, from omnisharp kinds (=semantic groups)-------------------------------------------{{{
 hi! Folded guibg=#211F1C guifg=#575b61 gui=NONE font=consolas:h11
