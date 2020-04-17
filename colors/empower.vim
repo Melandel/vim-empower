@@ -11,7 +11,7 @@ syntax reset
 "Nice gray #575b61
 "Nice blueyBlue #20a39e
 
-" Generic highlight groups-------------------------------------------{{{
+" Generic highlight groups" -------------------{{{
 hi! Normal guibg=#2C2C29 guifg=#E8E8E3 font='consolas:h11'
 hi! Visual guibg=#3a435e
 hi! Comment guifg=#575b61 gui=NONE
@@ -63,9 +63,9 @@ hi! DiffChange guibg=#af8a0c guifg=fg gui=NONE
 hi! DiffDelete guibg=#c7400e guifg=fg gui=NONE
 hi! DiffText guibg=#af390c guifg=fg gui=NONE
 hi! PopupTime guibg=bg guifg=#8cb369 gui=bold
+" --------------------------------------------}}}
 
-"----------------------------------------------------}}}
-" CSharp highlight groups, from omnisharp kinds (=semantic groups)-------------------------------------------{{{
+" CSharp highlight groups" --------------------{{{
 hi! Folded guibg=#211F1C guifg=#575b61 gui=NONE font=consolas:h11
 hi! csharpKeyword guifg=#729fcf gui=NONE font=consolas:h11
 hi! csharpNamespaceName guifg=#E8E8E3 gui=NONE font=consolas:h11
@@ -93,8 +93,8 @@ hi! csharpXmlDocCommentName guifg=#575b61 gui=NONE font=consolas:h11:i
 hi! csharpXmlDocCommentDelimiter guifg=#575b61 gui=NONE font=consolas:h11:i
 hi! csharpXmlDocCommentText guifg=#575b61 gui=NONE font=consolas:h11:i
 hi! csComment guifg=#575b61 gui=NONE font=consolas:h11:i
-"----------------------------------------------------}}}
-" HTML hhighlight groups
+" --------------------------------------------}}}
+" HTML hhighlight groups" ---------------------{{{
 hi! htmlTitle guibg=bg guifg=#fb5012
 hi! htmlEndTag guibg=bg guifg=#729fcf
 hi! htmlTag guibg=bg guifg=#729fcf
@@ -105,3 +105,4 @@ hi! javaScriptIdentifier guibg=bg guifg=#729fcf
 hi! javaScriptFunction guibg=bg guifg=#729fcf
 hi! javaScript guibg=bg guifg=#729fcf
 hi! javaScriptNumber guibg=bg guifg=#20a39e
+" --------------------------------------------}}}
