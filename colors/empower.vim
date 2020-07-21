@@ -65,6 +65,7 @@ hi! ColorColumn guibg=#9f9aa4 gui=NONE
 hi! SignColumn guibg=#31312D guifg=Grey gui=NONE
 hi! LineNr guibg=#31312D guifg=#8F908A gui=NONE
 hi! FoldColumn guibg=#3cb98f guifg=#3cb98f gui=NONE
+hi! Folded guibg=#211F1C guifg=#575b61 gui=NONE font=consolas:h11
 hi! Pmenu guibg=#31312D guifg=#99c24d
 hi! PmenuSel guibg=#455561 guifg=#fabd2f gui=NONE
 hi! CursorLine guibg=#31312D
@@ -80,35 +81,6 @@ hi! DiffDelete guibg=#c7400e guifg=fg gui=NONE
 hi! DiffText guibg=#af390c guifg=fg gui=NONE
 " --------------------------------------------}}}
 
-" CSharp highlight groups" -------------------{{{
-hi! Folded guibg=#211F1C guifg=#575b61 gui=NONE font=consolas:h11
-hi! csharpKeyword guifg=#729fcf gui=NONE font=consolas:h11
-hi! csharpNamespaceName guifg=#E8E8E3 gui=NONE font=consolas:h11
-hi! csharpPunctuation guifg=#E8E8E3 gui=NONE font=consolas:h11
-hi! csharpOperator guifg=#E8E8E3 gui=NONE font=consolas:h11
-hi! csharpInterfaceName guifg=#faa275 gui=NONE font=consolas:h11
-hi! csharpStructName guifg=#99c24d gui=NONE font=consolas:h11
-hi! csharpEnumName guifg=#8cb369 gui=NONE font=consolas:h11
-hi! csharpEnumMemberName guifg=#8cb369 gui=NONE font=consolas:h11
-hi! csharpClassName guifg=#99c24d gui=NONE font=consolas:h11
-hi! csharpStaticSymbol guifg=#E8E8E3 gui=NONE font=consolas:h11
-hi! csharpFieldName guifg=#E8E8E3 gui=NONE font=consolas:h11
-hi! csharpPropertyName guifg=#E8E8E3 gui=NONE font=consolas:h11
-hi! csharpMethodName guifg=#E8E8E3 gui=NONE font=consolas:h11
-hi! csharpParameterName guifg=#fb5012 gui=NONE font=consolas:h11
-hi! csharpLocalName guifg=#E8E8E3 gui=NONE font=consolas:h11
-hi! csharpKeywordControl guifg=#fabd2f gui=NONE font=consolas:h11
-hi! csharpString guifg=#fabd2f gui=NONE font=consolas:h11
-hi! csharpNumber guifg=#20a39e gui=NONE font=consolas:h11
-hi! csharpConstantName guifg=#fb5012 gui=NONE font=consolas:h11
-hi! csharpIdentifier guifg=#E8E8E3 gui=NONE font=consolas:h11
-hi! csharpExtensionMethodName guifg=#E8E8E3 gui=NONE font=consolas:h11:i
-hi! csharpComment guifg=#575b61 gui=NONE font=consolas:h11:i
-hi! csharpXmlDocCommentName guifg=#575b61 gui=NONE font=consolas:h11:i
-hi! csharpXmlDocCommentDelimiter guifg=#575b61 gui=NONE font=consolas:h11:i
-hi! csharpXmlDocCommentText guifg=#575b61 gui=NONE font=consolas:h11:i
-hi! csComment guifg=#575b61 gui=NONE font=consolas:h11:i
-" -------------------------------------------}}}
 
 " HTML hhighlight groups" --------------------{{{
 hi! htmlTitle guibg=bg guifg=#fb5012
