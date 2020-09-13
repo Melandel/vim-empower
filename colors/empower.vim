@@ -1,6 +1,9 @@
 set background=dark
 syntax reset
 
+if has('termguicolors')
+	set termguicolors
+endif
 " Colors
 " #31312d
 " #6f904f
