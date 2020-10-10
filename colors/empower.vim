@@ -31,15 +31,15 @@ endif
 
 
 " Generic highlight groups" ------------------{{{
-hi! Normal guibg=#2C2C29 guifg=#E8E8E3 font='consolas:h11'
+hi! Normal guibg=#2C2C29 guifg=#E8E8E3 font='consolas:h11' ctermfg=7
 hi! Visual guibg=#3a435e
-hi! Comment guifg=#575b61 gui=NONE
-hi! Constant guifg=#fb5012 gui=NONE
-hi! String guifg=#fabd2f gui=NONE
+hi! Comment guifg=#575b61 gui=NONE ctermfg=8
+hi! Constant guifg=#fb5012 gui=NONE ctermfg=1
+hi! String guifg=#fabd2f gui=NONE ctermfg=3
 hi! Character guifg=#faa275 gui=NONE
 hi! Number guifg=#20a39e gui=NONE
 hi! Boolean guifg=#729fcf gui=NONE
-hi! Float guifg=#99c24d gui=NONE
+hi! Float guifg=#99c24d gui=NONE ctermfg=2
 hi! Identifier guifg=#E8E8E3 gui=NONE
 hi! Function guifg=#E8E8E3 gui=NONE
 hi! Statement guifg=#E8E8E3 gui=NONE
@@ -51,7 +51,7 @@ hi! Keyword guifg=#729fcf gui=NONE
 hi! Exception guifg=#729fcf gui=NONE
 hi! PreProc guifg=#fabd2f gui=NONE
 hi! Include guifg=#fabd2f gui=NONE
-hi! Define guifg=#fabd2f gui=NONE 
+hi! Define guifg=#fabd2f gui=NONE
 hi! Macro guifg=#fabd2f gui=NONE
 hi! PreCondit guifg=#fabd2f gui=NONE
 hi! Type guifg=#729fcf gui=NONE
@@ -71,8 +71,8 @@ hi! FoldColumn guibg=#3cb98f guifg=#3cb98f gui=NONE
 hi! Folded guibg=#211F1C guifg=#575b61 gui=NONE font=consolas:h11
 hi! Pmenu guibg=#31312D guifg=#99c24d
 hi! PmenuSel guibg=#455561 guifg=#fabd2f gui=NONE
-hi! CursorLine guibg=#31312D
-hi! CursorLineNr guibg=#31312D guifg=#fabd2f
+hi! CursorLine guibg=#31312D term=NONE cterm=NONE
+hi! CursorLineNr guibg=#31312D guifg=#fabd2f gui=underline term=underline cterm=underline
 hi! VertSplit guibg=#abb2bf guifg=#292c33
 hi! Search guibg=gray
 hi! Directory guifg=#729fcf
