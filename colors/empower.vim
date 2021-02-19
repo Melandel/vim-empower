@@ -71,7 +71,12 @@ hi! FoldColumn guibg=#3cb98f guifg=#3cb98f gui=NONE
 hi! Folded guibg=#211F1C guifg=#575b61 gui=NONE font=consolas:h11
 hi! Pmenu guibg=#31312D guifg=#99c24d
 hi! PmenuSel guibg=#455561 guifg=#fabd2f gui=NONE
-hi! CursorLine guibg=#31312D term=NONE cterm=NONE
+if has('win32') && !has("gui_running")
+	" on cmd.exe/windows terminal, this removes foreground coloring on current line
+	hi clear CursorLine
+else
+	hi! CursorLine guibg=#31312D term=NONE cterm=NONE
+endif
 hi! CursorLineNr guibg=#31312D guifg=#fabd2f gui=underline term=underline cterm=underline
 hi! VertSplit guibg=#abb2bf guifg=#292c33
 hi! Search guibg=gray
