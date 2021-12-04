@@ -23,10 +23,11 @@ let s:p.visual.right = [ [ '#303540', '#fabd2f', s:term_black, s:term_purple, 'b
 let s:p.normal.middle = [ [ '#abb2bf', '#303540', s:term_white, s:term_black ] ]
 let s:p.insert.middle = s:p.normal.middle
 let s:p.replace.middle = s:p.normal.middle
-let s:p.tabline.left = [ s:p.normal.left[1] ]
-let s:p.tabline.tabsel = [ s:p.normal.left[0] ]
-let s:p.tabline.middle = s:p.normal.middle
-let s:p.tabline.right = [ s:p.normal.left[1] ]
+" I reset 'tabline' manually
+"let s:p.tabline.left = [ s:p.normal.right[1] ]
+"let s:p.tabline.tabsel = [ s:p.normal.right[0] ]
+"let s:p.tabline.middle = s:p.normal.middle
+"let s:p.tabline.right = [ s:p.normal.right[1] ]
 let s:p.normal.error = [ [ '#303540', '#e06c75', s:term_black, s:term_red ] ]
 let s:p.normal.warning = [ [ '#303540', '#e5c07b', s:term_black, s:term_yellow ] ]
 

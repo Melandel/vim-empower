@@ -87,6 +87,9 @@ hi! DiffAdd guibg=#6f904f guifg=fg gui=NONE
 hi! DiffChange guibg=#af8a0c guifg=fg gui=NONE
 hi! DiffDelete guibg=#c7400e guifg=fg gui=NONE
 hi! DiffText guibg=#af390c guifg=fg gui=NONE
+hi! TabLine guibg=#303540 guifg=#abb2bf gui=NONE
+hi! TabLineSel guibg=#3e4452 guifg=#abb2bf gui=NONE
+hi! TabLineFill guibg=#303540 guifg=#abb2bf gui=NONE
 " --------------------------------------------}}}
 
 
