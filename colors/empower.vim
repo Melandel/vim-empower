@@ -110,3 +110,13 @@ hi! javaScriptNumber guibg=bg guifg=#20a39e
 highlight SharpenUpReady guibg=#8cb369 guifg=#303540
 highlight SharpenUpLoading guibg=#fabd2f guifg=#303540
 highlight SharpenUpDead guibg=#faa275 guifg=#303540
+
+" Neovim diagnostics
+if has('nvim')
+ hi! DiagnosticError ctermfg=Red    guifg=#E44C15 guibg=#2C2C29
+ hi! DiagnosticWarn  ctermfg=Yellow guifg=#E3AD2E guibg=#2C2C29
+ hi! DiagnosticInfo  ctermfg=Blue   guifg=#6A92BD guibg=#2C2C29
+ hi! DiagnosticHint  ctermfg=Cyan   guifg=#CCE8E7 guibg=#2C2C29
+ hi! NormalFloat     ctermfg=Cyan   guifg=#8CB369 guibg=NONE
+ hi! link FloatBorder NormalFloat
+endif
